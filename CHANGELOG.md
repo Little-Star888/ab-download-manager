@@ -14,6 +14,24 @@
 
 ### Security
 
+## 1.10.2
+
+### Added
+
+- Added built-in DNS-over-HTTPS (DoH) support (#1380)
+- Added native messaging manifests for additional browsers (#1366)
+- Added more browser integration installation links
+- Added "Import From Clipboard" to the system tray menu
+
+### Fixed
+
+- Fixed a `Win32Exception` that could occur when uninstalling native messaging from the CLI (#1345)
+
+### Updated
+
+- Updated translations
+- Updated the donation link
+
 ## 1.10.1
 
 ### Changed
