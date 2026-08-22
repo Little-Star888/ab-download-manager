@@ -88,6 +88,7 @@ aboutLibraries {
         prettyPrint = true
     }
     library {
+        mergePlatformArtifacts = true
         duplicationMode = DuplicateMode.MERGE
         duplicationRule = DuplicateRule.SIMPLE
     }
